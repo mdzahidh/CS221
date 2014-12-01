@@ -103,3 +103,18 @@ class BaselineSolver:
 #            print 'Moved to %s from %s' % (minBoundaryState, baseState)
             baseState = minBoundaryState
             baseCost = minBoundaryCost
+
+
+def SamplingSolver:
+    def __init__(self, problem, D):
+        self.problem = problem
+        self.D = D
+        self.partialMap = {}
+
+    def seenState
+    def search(self):
+        baseState = self.problem.start()
+
+        while True:
+            queue = PriorityQueue()
+            backpointers = {}

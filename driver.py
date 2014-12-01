@@ -23,7 +23,7 @@ plt.pcolormesh(np.array(mapvals))
 for i in range(len(path)-1):
     x1,y1 = path[i+1]
     x2,y2 = path[i]
-    plt.plot([x1,x2], [y1,y2], 'w-', lw=5)
+    plt.plot([x1,x2], [y1,y2], 'k-', lw=5)
 
 plt.savefig('test.png')
 
