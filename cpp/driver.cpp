@@ -25,8 +25,10 @@ int main(int argc, char *argv[]) {
     PartialSolver *solver;
     if(solverType == "baseline") {
         solver = new BaselineSolver(map, atoi(argv[3]), destination);
-    } else {
+    } else if(solverType == "sampling") {
         solver = new SamplingSolver(map, atoi(argv[3]), destination, 10);
+    } else {
+        assert(0 && "solver type must be sampling/baseline");
     }
 
     Cell current = source;
