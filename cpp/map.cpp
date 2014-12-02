@@ -1,7 +1,7 @@
-#include <map.h>
+#include <stdio.h>
 #include <cstdlib>
-#include <cstdio>
-#include <cstring>
+#include <string.h>
+#include <map.h>
 
 using namespace std;
 
