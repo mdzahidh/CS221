@@ -1,4 +1,5 @@
 #include <sampler.h>
+#include <algorithm>
 
 using namespace std;
 

@@ -9,4 +9,4 @@ driver: $(OBJS)
 	g++ -O3 -std=c++11 -o $@ $^
 
 %.o: %.cpp $(HEADERS)
-	g++ -O3 -std=c++11 -c -o $@ $<
+	g++ -O3 -I. -std=c++11 -c -o $@ $<
