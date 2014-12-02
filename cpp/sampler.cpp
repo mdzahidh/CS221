@@ -1,5 +1,5 @@
+#include <algorithm>
 #include <sampler.h>
-
 using namespace std;
 
 Sampler::Sampler(const map<Cell, float> &visited,
